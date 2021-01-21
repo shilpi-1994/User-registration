@@ -1,0 +1,65 @@
+.form-heading {
+    color: #CB4C40;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px 5px 20px;
+}
+
+.outer-card {
+    background-color: #EEEEEE;
+    height: 350px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 200px auto;
+    position: relative;
+}
+
+.outer-card .card {
+    border-radius: 10px;
+    margin: 30px auto;
+    background-color: white;
+    height: 85%;
+    width: 90%;
+}
+
+.outer-card .card input::placeholder{
+    font-size: 16px;
+    color: #C8C8C8;
+}
+
+.outer-card .card .input-name{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.input {
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #C8C8C8;
+}
+
+.half-width-input {
+    width: 45%;
+    padding: 8px 15px;
+    margin: 8px 0;
+}
+
+.full-width-input {
+    width: 94%;
+    padding: 8px 15px;
+    margin: 8px 15px;
+}
+
+.submit-btn {
+        background-color: #BBBBBB;
+        border: none;
+        border-radius: 12px;
+        color: white;
+        padding: 6px 18px;
+        font-size: 16px;
+        position: absolute;
+        left: 42%;
+        margin: 10px 0;
+}
